@@ -2,7 +2,7 @@
 # Contributor: Andrew Steinke <rkcf@rkcf.me>
 
 pkgname=eslint-plugin-vue
-pkgver=9.32.0
+pkgver=9.33.0
 pkgrel=1
 pkgdesc='Official ESLint plugin for Vue.js'
 arch=('any')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('eslint')
 makedepends=('npm')
 source=("http://registry.npmjs.org/$pkgname/-/$pkgname-$pkgver.tgz")
-sha256sums=('1c1ae8033ba1603cdfb125a932cdb501a6a50fad9f1a0b73ee0d2c308ab55aae')
+sha256sums=('c4c9df3d71cf4b3720c875bfa0e94edf00e53b9c22d7a9e785f5e6569f172a16')
 noextract=($pkgname-$pkgver.tgz)
 
 package() {
